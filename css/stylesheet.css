@@ -77,6 +77,17 @@ body h1 {
   font-size: 2em;
 }
 
+footer{
+  background-color: rgb(66, 10, 10);
+  margin-top: 9.7%
+}
+
+footer p{
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+}
+
 @media (max-width: 700px){
   .grid-2{
     grid-template-columns: 1fr;
