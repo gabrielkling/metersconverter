@@ -158,7 +158,9 @@ function pegarDados(e){
       valorConvertido.value = valor1*10;
     }
   }
+
   e.preventDefault();
+  
 }
 
 function limparCampos(){

@@ -1,55 +1,59 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <title>Conversor Métrico</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-    <link rel="stylesheet" href="css/stylesheet.css"/>
-  </head>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Meters Converter</title>
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/stylesheet.css" />
+</head>
 
 
-  <body>
+<body>
 
-    <main  class="mainly">
+  <main class="mainly">
 
-      <h1>Conversor Métrico</h1>
+    <h1>Meters Converter</h1>
 
-      <form class="formulario" id="form">
+    <form class="formulario" id="form">
 
-        <section class="unidades grid-2">
-          <select id="from">
-            <option value="miliMetro">Milímetros</option>
-            <option value="centiMetro">Centímetros</option>
-            <option value="deciMetro">Decímetros</option>
-            <option value="metro">Metros</option>
-            <option value="decaMetro">Decâmetros</option>
-            <option value="hectMetro">Hectômetro</option>
-            <option value="kiloMetro">Quilômetro</option>
+      <section class="unidades grid-2">
+        <select id="from">
+            <option value="miliMetro">Milimeters</option>
+            <option value="centiMetro">Centimeters</option>
+            <option value="deciMetro">Decimeters</option>
+            <option value="metro">Meters</option>
+            <option value="decaMetro">Decametres</option>
+            <option value="hectMetro">Hectometers</option>
+            <option value="kiloMetro">Kilometers</option>
           </select>
-          <select id="para">
-            <option value="miliMetro">Milímetros</option>
-            <option value="centiMetro">Centímetros</option>
-            <option value="deciMetro">Decímetros</option>
-            <option value="metro">Metros</option>
-            <option value="decaMetro">Decâmetros</option>
-            <option value="hectMetro">Hectômetro</option>
-            <option value="kiloMetro">Quilômetro</option>
+        <select id="para">
+          <option value="miliMetro">Milimeters</option>
+          <option value="centiMetro">Centimeters</option>
+          <option value="deciMetro">Decimeters</option>
+          <option value="metro">Meters</option>
+          <option value="decaMetro">Decametres</option>
+          <option value="hectMetro">Hectometers</option>
+          <option value="kiloMetro">Kilometers</option>
           </select>
-        </section>
+      </section>
 
-        <section class="grid-2">
-          <input type="number" placeholder="0.0" step="0.1" id="valor1" />
-          <input readonly="true" type="number" placeholder="0.0" step="0.1" id="valor2" />
-        </section>
+      <section class="grid-2">
+        <input type="number" placeholder="0.0" step="0.1" id="valor1" />
+        <input readonly="true" type="number" placeholder="0.0" step="0.1" id="valor2" />
+      </section>
 
-        <button type="submit" id="calcular">Converter</button>
-        <button onclick="limparCampos()"type="button" id="zerar">Zerar</button>
+      <button type="submit" id="calcular">Convert</button>
+      <button onclick="limparCampos()" type="button" id="zerar">Clear</button>
 
 
-      </form>
-    </main>
-    <script src="js/main.js"></script>
-  </body>
+    </form>
+  </main>
+  <script src="js/main.js"></script>
+</body>
 
 </html>
